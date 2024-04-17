@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+تیپی وەرزشی بروسک
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+
+<body >
+
+<!-- slide show -->
+<div class="image-slideshow">
+  <div class="image fade">
+    <img src="logo/brusk.jpg" alt="" class="img-slideshow">
+  </div>
+  <div class="image fade">
+    <img src="logo/brusk1.png" alt="" class="img-slideshow">
+  </div>
+  <div class="image fade">
+    <img src="logo/brusk10.png" alt="" class="img-slideshow">
+  </div>
+
+</div>
+
+
+ 
+
+</div>
+
+<div class="bar">
+  <div class="logo2"> <img src="logo/brusk1-removebg-preview.png" alt="" class="logo2"></div>
+    <div class=""><p class="naw">تیپی وەرزشی بروسک</p></div>
+
+<div id="" class="nav">
+  <a href="index.html" style="color:  rgb(188, 179, 0);">سەرەکی</a>
+  <a href="form.html">پەیوەندیکردن</a>
+  <a href="yaryzan.html">تیم</a>
+  <a href="vedio.html">ڤیدیۆ</a>
+  <a href="zanyary.html">دەربارە</a>
+
+</div>
+
+</div>
+
+    <h1 class="h1">تیپی وەرزشی ( بروسک ) لە ساڵی {٢٠١٢} لە سەر دەستی { کاروان باپیر ناسراو بە مەلا کاروان } دروست بووە <br> 
+     سەر بە لیژنەی تیپە میلییەکانی پیرەمەگرون و لیژنەی باڵای ئیدارەی ڕاپەڕینە سەرەتا  یەک قۆناغی هەبوو <br>لە پلە یەکی پیرەمەگرون دواتر توانی نازناوی پلە یەک بەرێت و سەر بکەوێت بۆ پلە نایابەکانی پیرەمەگروون
+    </h1>
+    <div class="zyatr">
+    <a href="zanyary.html" >...زیاتر بخوێنە</a>
+</div>
+    <div class="divmedya">
+      <p class="pmedya">تیپی وەرزشی بروسک</p>
+    
+      <a href="https://www.facebook.com/BruskPiramagrun?mibextid=LQQJ4d" class="fac"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://t.me/+1sbSzydi1uk1MjBi" class="fac"><i class="fa-brands fa-telegram" ></i></a>
+      <p class="nawnishan">ناونیشان: پیرەمەگروون - یاریگای پیرەمەگروون</p>
+
+  </div>
+
+
+<script> 
+   let index=0;
+    displayImages();
+    function displayImages(){
+      let i;
+      const images = document.getElementsByClassName("image");
+      for (i=0; i < images.length; i++){
+        images[i].style.display="none";
+      }
+      index++;
+      if (index > images.length){
+        index=1;
+      }
+      images[index-1].style.display="block";
+      setTimeout(displayImages,2000)/*goryny wenaka dway 2 chrka */
+    }
+    </script> 
+
+
+
+</body>
+</html>

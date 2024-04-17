@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="vedio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>ڤیدیۆ</title>
+</head>
+<body>
+    
+    <div class="bar">
+        <div class="logo2"> <img src="logo/brusk1-removebg-preview.png" alt="" class="logo2"></div>
+          <div class=""><p class="naw">ڤیدیۆ</p></div>
+      
+      <div id="" class="nav">
+        <a href="index.html">سەرەکی</a>
+        <a href="form.html">پەیوەندیکردن</a>
+        <a href="yaryzan.html">تیم</a>
+        <a href="vedio.html" style="color:  rgb(188, 179, 0);">ڤیدیۆ</a>
+        <a href="zanyary.html">دەربارە</a>
+      
+      </div>
+      
+      </div>
+
+
+    <div class="container">
+
+        <div class="main-video">
+            <div class="video">
+                <video src="vedio/br2.mp4" controls autoplay muted></video>
+
+            </div>
+        </div>
+
+<!-- ڤیدۆکانی لیستەکەی تەنیشت ڤیدیۆ گەورەکەیە-->
+        <div class="video-list">
+            <div class="vid">
+                <video src="vedio/br3.mp4"  muted  ></video>
+                <h3 class="title"> ئاماری تیپەکەمان بۆ ساڵی ٢٠٢٠ </h3>
+                </div>
+            
+                <div class="vid active">
+                    <video src="vedio/br2.mp4"  muted ></video>
+                    <h3 class="title">    گۆڵێکی ناوازەی یاریزانی تیپەکەمان کارزان باپیر بەرامبەر کانی ئاشقانی هەڵەبجە ٢٠٢٠</h3>
+                    </div>
+
+                    <div class="vid">
+                        <video src="vedio/br1.mp4"  muted ></video>
+                        <h3 class="title">گۆڵی یاریزانی تیپەکەمان کاروان باپیر بەرامبەر کانی ئاشقانی هەڵەبجە ٢٠٢٠</h3>
+                        </div>
+
+                        <div class="vid">
+                            <video src="vedio/br3.mp4"  muted ></video>
+                            <h3 class="title">ئاماری تیپەکەمان بۆ ساڵی ٢٠٢٠</h3>
+                            </div>
+            </div>
+
+        </div>
+
+        <!-- js bo videokan -->
+        <script>
+            let listVideo=document.querySelectorAll('.video-list .vid')
+            let mainVideo=document.querySelector('.main-video video')
+            let title=document.querySelector('.main-video title')
+            
+            listVideo.forEach(video => {
+                video.onclick=() =>{
+                    listVideo.forEach(vid => vid.classList.remove('active'))
+                    video.classList.add('active');
+                    if (video.classList.contains('active')){
+                        let src = video.children[0].getAttribute('src');
+                        mainVideo.src = src;
+                        let text = video.children[1].innerHTML;
+                        title.innerHTML = text;
+
+                    };
+
+                };
+
+            });
+
+        </script>
+    
+
+      <div class="divmedya">
+        <p class="pmedya">تیپی وەرزشی بروسک</p>
+        <a href="https://www.facebook.com/BruskPiramagrun?mibextid=LQQJ4d" class="fac"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://t.me/+1sbSzydi1uk1MjBi" class="fac"><i class="fa-brands fa-telegram" ></i></a>
+        <p class="nawnishan">ناونیشان: پیرەمەگروون - یاریگای پیرەمەگروون</p>
+
+      </div>
+
+</body>
+</html>
