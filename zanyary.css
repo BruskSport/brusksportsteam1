@@ -1,0 +1,108 @@
+
+body{
+    margin: 0;
+}
+
+.logo2{
+    width: 80px;
+    height: auto;
+    position: absolute;
+  margin-top: 4px;
+    margin-left: 550px;
+ }
+ .naw{
+    color:  rgb(188, 179, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 28px;
+    margin-left: 1050px;
+    position: absolute;
+ }
+.bar{
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+     top: 0;
+     outline: none;
+     height: 100px;
+     background-color: #000671f1;
+     border: none;
+     }
+    .nav{
+        position: absolute;
+        width: 500px;
+        height: 30px;
+        margin-top: 30px;
+        
+      }
+     .nav a{
+        color: white;
+        text-decoration: none;
+        margin-left: 15px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        
+     }
+     .nav a:hover{
+        transition: .5s;
+        color:  rgb(188, 179, 0);
+     }
+
+    h1{
+    margin-top: 20px;
+    text-align: right;
+    color: rgb(47, 45, 45);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p1{
+    font-size: 40px;
+    color: #000671f1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    font-weight: bolder;
+    
+    
+}
+
+
+ .divmedya{
+    width: auto;
+    height: 200px;
+    margin-top: 20px;
+    background-color:rgb(14, 0, 108); 
+    }
+    .pmedya{
+        text-align: center;
+        padding-top: 20px;
+        color:  rgb(188, 179, 0);
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+    .fa-facebook{
+        margin-left: 550px;
+        margin-top: 15px;
+        font-size: 50px;
+    }
+    .fac{
+        color: white;
+    }
+    .fa-telegram{
+       margin-left:20px;
+       margin-top: 15px;
+       font-size: 50px;
+       display: flex;
+    }
+    .divmedya a:hover{
+       transition: .5s;
+        color: rgb(188, 179, 0);
+    }
+ 
+    .nawnishan{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    }

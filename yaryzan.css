@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+.bar{
+    position: -webkit-sticky;
+    position: sticky;
+     top: 0;
+     outline: none;
+     height: 100px;
+     background-color: #000671f1;
+     border: none;
+     z-index: 1;
+     }
+     .nav a{
+        color: white;
+        text-decoration: none;
+        margin-left: 15px;
+        font-size: 20px;
+        font-weight: bolder;
+        
+     }
+     
+    .nav{
+        position: absolute;
+        width: 450px;
+        height: 30px;
+        margin-top: 30px;
+        
+      }
+    
+     .nav a:hover{
+        transition: .5s;
+        color:  rgb(188, 179, 0);
+     }
+     .logobr{
+        width: 80px;
+        height: auto;
+        position: absolute;
+      margin-top: 4px;
+        margin-left: 550px;
+     }
+     .naw{
+        color:  rgb(188, 179, 0);
+        font-size: 25px;
+        font-weight: bolder;
+        margin-top: 28px;
+        margin-left: 1060px;
+        position: absolute;
+     }
+
+
+/* bo wena w naw */
+.container{
+    width: 100%;
+}
+p{
+    font-family: 'calibri';
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.rahenar{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(231, 231, 231);
+}
+.logo{
+    width: 100px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1040px;
+    margin-top: 20px;
+    position: absolute;
+    border-radius: 100px 100px  25px 25px ;
+}
+.tarq{
+    position: relative;
+    width: 100px;
+    margin-left: 1040px;
+    margin-top: 7px;
+}
+
+.atarq{
+    width: 100%;
+    height: 150px;
+}
+
+.atarq:hover{
+    background-color: #b6b6b6f1;
+}
+.name{
+    position: absolute;
+    font-family: 'calibri';
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 75px;
+    margin-left: 910px;
+}
+
+.golchy{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(231, 231, 231);
+}
+.logo1{
+    width: 100px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1040px;
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 100px 100px  25px 25px ;
+}
+.awat{
+    position: relative;
+    width: 120px;
+    margin-left: 1040px;
+}
+.aawat{
+    width: 100%;
+    height: 180px;
+}
+.aawat:hover{
+    background-color: #b6b6b6f1;
+}
+.name1{
+    position: absolute;
+    font-family: 'calibri';
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-left: 910px;
+}
+
+.bargry{
+    width: 100%;
+    height: 360px;
+    background-color: rgb(231, 231, 231);
+}
+.logo2{
+    width: 100px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1040px;
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 100px 100px  25px 25px ;
+}
+.hamza-rebin{
+    position: relative;
+    width: 120px;
+    margin-left: 1040px;
+}
+.ahamza-rebin{
+    width: 100%;
+    height: 180px;
+}
+.ahamza-rebin:hover{
+    background-color: #b6b6b6f1;
+}
+.name2{
+    position: absolute;
+    font-family: 'calibri';
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 75px;
+    margin-left: 900px;
+}
+
+.nawarast{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(231, 231, 231);
+}
+.logo3{
+    width: 100px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1040px;
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 100px 100px  25px 25px ;
+}
+.karwan{
+    position: relative;
+    width: 120px;
+    margin-left: 1040px;
+}
+.akarwan{
+    width: 100%;
+    height: 180px;
+}
+.akarwan:hover{
+    background-color: #b6b6b6f1;
+}
+.name3{
+    position: absolute;
+    font-family: 'calibri';
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 900px;
+}
+
+.hershbar{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(231, 231, 231);
+}
+.logo4{
+    width: 100px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1040px;
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 100px 100px  25px 25px ;
+}
+.binar{
+    position: relative;
+    width: 120px;
+    margin-left: 1040px;
+}
+.abinar{
+    width: 100%;
+    height: 180px;
+}
+.abinar:hover{
+    background-color: #b6b6b6f1;
+}
+.name4{
+    position: absolute;
+    font-family: 'calibri';
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 900px;
+}
+
+
+
+
+
+
+
+   .divmedya{
+    width: auto;
+    height: 200px;
+    margin-top: 20px;
+    background-color:rgb(14, 0, 108); 
+    }
+        .pmedya{
+            text-align: center;
+            padding-top: 20px;
+            color:  rgb(188, 179, 0);
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .fa-facebook{
+            margin-left: 550px;
+            margin-top: 15px;
+            font-size: 50px;
+        }
+        .fac{
+            color: white;
+        }
+        .fa-telegram{
+           margin-left:20px;
+           margin-top: 15px;
+           font-size: 50px;
+           display: flex;
+        }
+        .divmedya a:hover{
+           transition: .5s;
+            color: rgb(188, 179, 0);
+        }
+
+        .nawnishan{
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
